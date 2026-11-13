@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Pattranit's CV </title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;700&display=swap');
+    body {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    background-color: #fcfbf2;
+    padding: 20px 50px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+    header {
+      text-align: center;
+      h1 {
+        margin-bottom: 1px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+    }
+    section {
+      background-color: #d4fcd7;
+      padding: 20px 50px;
+      margin-bottom: 16px;
+      border-radius: 12px;
+    }
+    header img {border-radius: 80%;}
+    footer {
+      .btn {
+      background-color: #2fb57a;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      }
+    .btn:hover { background-color: #248a5d; }
+    }
+    body.dark { background-color: #212063; }
+    body.dark h1 { color: #f705b3; }
+    body.dark h2 { color: #F77FBE; }
+    body.dark section { background-color: #2a2ea8; }
+    body.dark ul { color: white; }
+    body.dark footer h3 { color: #F77FBE; }
+    body.dark footer .btn {
+      background-color: #f705b3;
+      color: white;
+    }
+
+    body.dark footer .btn:hover {
+      background-color: #cc0293;
+    }
+  h1 { color: #0f802f; }</style>
+</head>
+  
+<body>
+  <header>
+  <img src="https://i.pinimg.com/564x/0b/e6/fe/0be6fee21d34f0fb7853db09394cb360.jpg" alt="my animal picture" width="120">
+  <h1>ภัทรานิษฐ์ อิทธิธรรมบูรณ์</h1>
+  <h2>Pattranit Ittitammaboon</h2>
+  <button class="btn" onclick="toggleDark()"><img src="https://static.thenounproject.com/png/674302-200.png" alt="night and day mode" width="20">
+    </button>
+  </header>
+  <section>
+  <h2>ประวัติการศึกษา (Academics) </h2>
+  <ul>
+    <li>โรงเรียนสาธิตแห่งหนึ่งในประเทศไทย (ประถมปลาย) </li>
+    <li>โรงเรียนเบ็ญจะมะมหาราช (มัธยมศึกษาตอนต้น)</li>
+    <li>โรงเรียนมหิดลวิทยานุสรณ์ (ปัจจุบัน)</li>
+  </ul>
+  </section>
+  <section>
+  <h2>ทักษะ (Skills) </h2>
+  <ul>
+    <li>เล่นกีฬาแบดมินตัน</li>
+    <li>เล่นเปียโน</li>
+    <li>ใช้กล้องโทรทรรศน์ได้</li>
+  </ul>
+  </section>
+  <section>
+  <h2>ผลงานและประสบการณ์ (Achievements & Experiences) </h2>
+  <ul>
+    <li>ได้รับเหรียญทองจากการแข่งขันดาราศาสตร์โอลิมปิกระดับชาติ (TAO)</li>
+    <li>ได้รับรางวัลเหรียญทองแดงจากการแข่งขันคณิตศาสตร์ที่ฮ่องกง</li>
+    <li>ได้เข้าร่วมกิจกรรมจิตอาสา ณ สถานสงเคราะห์คนชราเฉลิมราชกุมารี (หลวงพ่อเปิ่นอุปถัมภ์) จ.นครปฐม</li>
+  </ul>
+  </section>
+  <footer> 
+  <h3>ช่องทางติดต่อ</h3>
+  <ul>
+    <li>School Email: pattranit.itt_g36@gmail.com</li>
+    <li>Tel: 0676767676 </li>
+    </ul>
+    <a class="btn" href="https://www.instagram.com/its.kookkik/">Instagram</a>
+  </footer>
+ <script>
+   function toggleDark() {
+    document.body.classList.toggle("dark");
+  }
+  </script>
+</body>
+</html>
